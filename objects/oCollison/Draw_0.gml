@@ -1,13 +1,12 @@
 draw_self()
 draw_set_color(c_black)
+
 if global.selected == id {
 	draw_sprite_ext(sSelected, 0, x,y, size, size, 0, c_white, 1)
-} 
-if global.selected == id {
-	if mouse_check_button_pressed(mb_left) {
+	/*if mouse_check_button_pressed(mb_left) {
 			oPlayer.tool_locked = true;
 		
-	}
+	}*/
 	if keyboard_check_pressed(ord("F")) && original == false{
 		var back = instance_create_depth(x,y,10,oBackObject)
 		back.image_index = image_index
@@ -40,4 +39,6 @@ if global.selected == id {
 
 }
 
-
+else{
+	dur=0	
+}

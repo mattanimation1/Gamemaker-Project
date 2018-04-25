@@ -1,4 +1,4 @@
-if global.selected = id && oPlayer.tool_locked == true {
+if global.selected == id /*&& oPlayer.tool_locked == true*/ {
 	dur ++
 	if dur == max_dur {
 		instance_destroy()
