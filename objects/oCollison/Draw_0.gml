@@ -2,7 +2,13 @@ draw_self()
 draw_set_color(c_black)
 
 if global.selected == id {
-	draw_sprite_ext(sSelected, 0, x,y, size, size, 0, c_white, 1)
+	global.selX=x
+	global.selY=y
+	oSelected.x=x
+	oSelected.y=y
+	global.selSize=size
+	global.drawSel=true
+	//draw_sprite_ext(sSelected, 0, x,y, size, size, 0, c_white, 1)
 	/*if mouse_check_button_pressed(mb_left) {
 			oPlayer.tool_locked = true;
 	}*/
@@ -42,6 +48,6 @@ if global.selected == id {
 
 }
 
-else{
+if mouseOver(id.bbox_left,id.bbox_top,id.bbox_right,id.bbox_bottom) == false or global.selected != id{
 	dur=0	
 }
