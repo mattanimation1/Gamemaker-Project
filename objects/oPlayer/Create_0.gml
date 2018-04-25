@@ -41,6 +41,7 @@ depth = 1
 //Set bullet speed
 alarm[0] = game_get_speed(gamespeed_fps)/4
 
+r = 0;
 
 //Create flame particle
 fire = part_system_create()
