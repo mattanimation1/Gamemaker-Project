@@ -1,0 +1,1 @@
+/// @description Cool down between bullets

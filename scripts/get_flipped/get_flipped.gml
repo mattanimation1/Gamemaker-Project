@@ -1,0 +1,1 @@
+flipped = (mouse_x > x) * 2 - 1;
