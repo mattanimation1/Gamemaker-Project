@@ -46,3 +46,12 @@ if global.inventorySlot != 4 {
 	global.selected = 0;
 	tool_locked = false
 }
+
+
+//Placing block
+if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Block" 
+{
+	//Unset all block
+	global.selected = 0; 
+	tool_locked = false
+}
