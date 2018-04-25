@@ -6,6 +6,7 @@ acceleration_ = 1.6;
 jump_height_ = -16;
 max_speed_ = 8;
 friction_ = .1;
+flipped = (mouse_x > x) * 2 - 1;
 
 //Weapon Charge
 max_charge = 120;

@@ -1,17 +1,14 @@
 draw_self()
 draw_set_color(c_black)
 
+mouse_over = mouseOver(x,y,sprite_get_width(sprite_index),sprite_get_height(sprite_index))
+
 if global.selected == id {
+	
 	global.selX=x
 	global.selY=y
-	oSelected.x=x
-	oSelected.y=y
 	global.selSize=size
 	global.drawSel=true
-	//draw_sprite_ext(sSelected, 0, x,y, size, size, 0, c_white, 1)
-	/*if mouse_check_button_pressed(mb_left) {
-			oPlayer.tool_locked = true;
-	}*/
 	if keyboard_check_pressed(ord("F")) && original == false{
 
 	}
@@ -48,6 +45,7 @@ if global.selected == id {
 
 }
 
-if mouseOver(id.bbox_left,id.bbox_top,id.bbox_right,id.bbox_bottom) == false or global.selected != id{
+if mouse_over == false or global.selected != id or mouse_check_button(mb_left) == false{
 	dur=0	
 }
+

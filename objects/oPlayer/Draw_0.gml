@@ -29,7 +29,7 @@ if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Spear"
 
 
 
-if global.inventorySlot == 4 
+if global.inventorySlot == 4
 {
 	//Check the collison line then draw the line
 	var r = collision_line_point(x-4*flipped, y-sprite_height/2+8, mouse_x, mouse_y, oCollison, true, true);
