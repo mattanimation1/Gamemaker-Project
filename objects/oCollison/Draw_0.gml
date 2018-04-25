@@ -20,7 +20,7 @@ if global.selected == id {
 	if mouse_check_button_pressed(mb_right) && oPlayer.tool_locked == true {
 				oPlayer.tool_locked = false;
 		}
-	if oPlayer.tool_locked == true && keyboard_check(ord("M")) && moving_brick == false {
+	if oPlayer.tosdgsdol_locked == true && keyboard_check(ord("M")) && moving_brick == false {
 		moving_brick = true
 		if original == true {
 			var back = instance_create_depth(x,y,10,oBackObject)
