@@ -41,7 +41,7 @@ ds_grid_clear(global.inventory, 0);
 		yIncrement +=64
 		xIncrement = 0;
 	}
-	 var inst = instance_create_layer(x-16+(64*xIncrement), y-16+yIncrement, "Instances", oShopIcon);
+	 var inst = instance_create_layer(x-16+(64*xIncrement), y-16+yIncrement, "Instances", oInventoryBar);
 	 inst.var_slot = slot;
 	 slot ++;
 	 xIncrement++

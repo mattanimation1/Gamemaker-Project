@@ -2,7 +2,7 @@
     "id": "9d7af46d-c765-48b9-b72b-36c233c22967",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sShopIcon1",
+    "name": "sInventoryBar",
     "For3D": false,
     "HTile": false,
     "VTile": false,

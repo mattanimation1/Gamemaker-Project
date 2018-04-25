@@ -1,6 +1,6 @@
 if oGame. draw == true || var_slot < 9 {
-	if global.inventorySlot == var_slot draw_sprite(sShopIcon1,1, x,y)
-	if global.inventorySlot != var_slot draw_sprite(sShopIcon1,0, x,y)
+	if global.inventorySlot == var_slot draw_sprite(sInventoryBar,1, x,y)
+	if global.inventorySlot != var_slot draw_sprite(sInventoryBar,0, x,y)
 	draw_set_color(c_black)
 	//Get values
 	var iid = global.inventory[# var_slot, 0];

@@ -2,7 +2,7 @@
     "id": "e8ce1fb6-6145-48c5-9857-609e6ed22c18",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oShopIcon",
+    "name": "oInventoryBar",
     "eventList": [
         {
             "id": "ddd5e90a-81a6-4c6d-a0ad-c7f30717fff9",

@@ -75,9 +75,9 @@ if oGame.draw == true || var_slot < 9 {
 	 
 	 }
 }
-if oGame.draw == true {
+/*if oGame.draw == true {
 	y = (camera_get_view_y(view_camera[0])+200)+64*floor(var_slot/9)
 	global.inventorySlot = 4
 } else {
 	y = camera_get_view_y(view_camera[0])
-}
+}*/

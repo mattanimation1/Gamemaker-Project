@@ -44,12 +44,12 @@ if global.inventorySlot == 4
 	}
 	draw_sprite_ext(sGun, 0, x-4*flipped, y-sprite_height/2+8, 1, flipped, dir, image_blend, image_alpha)	
 } 
-else if global.inventorySlot == 4 
+/*else if global.inventorySlot == 4 
 {
 	//Draw the beam from the players gun to mouse
 	draw_line_width_color(x-4*flipped, y-sprite_height/2+8, global.selected.x+16 , global.selected.y+16, 4, c_aqua,  c_aqua)
 	draw_sprite_ext(sGun, 0, x-4*flipped, y-sprite_height/2+8, 1, flipped, point_direction(x-4*flipped,y-sprite_height/2,global.selected.x+16, global.selected.y+16), image_blend, image_alpha)	
-}
+}*/
 
 if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Block" {
 	//Draw the item at the end of the beam. The gun aligned the right way and blue beam pointing towards the block
