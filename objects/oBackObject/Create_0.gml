@@ -1,1 +1,1 @@
-image_speed = 0;fff
+image_speed = 0
