@@ -1,4 +1,4 @@
-var dir = point_direction(x, y-sprite_height/2, mouse_x, mouse_y)
+var dir = point_direction(x-4*flipped, y-sprite_height/2+8, mouse_x, mouse_y)
 //Flips the player
 flipped = (mouse_x > x) * 2 - 1;
 
@@ -54,8 +54,8 @@ if global.inventorySlot == 4
 if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Block" {
 	//Draw the item at the end of the beam. The gun aligned the right way and blue beam pointing towards the block
 	
-	draw_sprite_ext(sGun, 0, x-4*flipped, y-sprite_height/2+8, 1, flipped, dir, image_blend, image_alpha)	
 	draw_line_width_color(x-4*flipped, y-sprite_height/2+8, (floor(mouse_x/32)*32)+16, (floor(mouse_y/32)*32)+16,4,c_aqua,c_aqua)
+	draw_sprite_ext(sGun, 0, x-4*flipped, y-sprite_height/2+8, 1, flipped, point_direction(x-4*flipped, y-sprite_height/2+8, (floor(mouse_x/32)*32)+16, (floor(mouse_y/32)*32)+16), image_blend, image_alpha)
 	draw_sprite(sItem, global.inventory[# global.inventorySlot, 0], floor(mouse_x/32)*32, floor(mouse_y/32)*32	)
 }
 draw_set_color(c_black)
