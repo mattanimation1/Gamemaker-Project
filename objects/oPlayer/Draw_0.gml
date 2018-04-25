@@ -19,7 +19,7 @@ if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Gun" {
 if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Sword" {
 	var dirSword = point_direction(x, y-sprite_height/2, mouse_x, mouse_y)
 	draw_sprite_ext(sSword, swordThrust, (x-4*flipped)-3, (y-sprite_height/2+8), 1, flipped, dirSword, image_blend, image_alpha)
-	if mouse_check_button_pressed(mb_left) {
+	if mouse_check_button(mb_left) {
 		var sword_collison = instance_create_depth((x-4*flipped)-3, (y-sprite_height/2+8),0,oSwordCollisons)
 		sword_collison.direction = dirSword;
 		sword_collison.image_angle = dirSword
