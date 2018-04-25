@@ -11,4 +11,5 @@ if  original == true && image_index != 4 && image_index != 22 {
 	var back = instance_create_depth(x,y,10,oBackObject)
 	back.image_index = image_index
 	back.original = false
+	back.depth = 10;
 }

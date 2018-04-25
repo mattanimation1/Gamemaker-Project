@@ -5,12 +5,15 @@ if global.selected == id {
 	draw_sprite_ext(sSelected, 0, x,y, size, size, 0, c_white, 1)
 	/*if mouse_check_button_pressed(mb_left) {
 			oPlayer.tool_locked = true;
-		
 	}*/
 	if keyboard_check_pressed(ord("F")) && original == false{
+
+	}
+	if keyboard_check_pressed(ord("F")) && original == false {
 		var back = instance_create_depth(x,y,10,oBackObject)
 		back.image_index = image_index
 		back.original = false
+		back.depth = 9
 		oPlayer.tool_locked = false
 		global.selected = 0;
 		instance_destroy()

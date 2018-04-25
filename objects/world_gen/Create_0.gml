@@ -97,19 +97,21 @@ for(i=0; i<room_width; i+=32) {
 		if t == round(random_range(1,20)) {
 			instance_create_depth(i,room_height-(p*32),0,oTree)
 	}
-	for(m=room_height-((p-1)*32);m<room_height; m+= 32) {	
-		if m == room_height-((p-1)*32)+64 {
-			var create_dirt = instance_create_depth(i,m,0, oCollison)
-			create_dirt.image_index = 1;
-			create_dirt.original = true;
-			instance_create_depth(i,m,0, oUnderGroundLightSquare)
-		} else if m<room_height-((p-4)*32) {
-			var create_dirt = instance_create_depth(i,m,0, oCollison)
-			create_dirt.image_index = 1;
-			create_dirt.original = true;
-			instance_create_depth(i,m,0, oSkyBlock)
-		}
+	for(m=room_height-((p-1)*32);m<room_height; m+= 32) {
+		if !place_meeting(i,m,oUnderGroundLightSquare) {
+			if m == room_height-((p-1)*32)+64 {
+				var create_dirt = instance_create_depth(i,m,0, oCollison)
+				create_dirt.image_index = 1;
+				create_dirt.original = true;
+				instance_create_depth(i,m,0, oUnderGroundLightSquare)
+			} else if m<room_height-((p-4)*32) {
+				var create_dirt = instance_create_depth(i,m,0, oCollison)
+				create_dirt.image_index = 1;
+				create_dirt.original = true;
+				instance_create_depth(i,m,0, oSkyBlock)
+			}
 	
+		}
 	}
 	instance_create_depth(i,room_height-((p-1)*32)+(32*3),0, oUnderGroundLightSquare)
 	instance_create_depth(i,room_height-((p-1)*32)+(32*4),0, oUnderGroundLightSquare)

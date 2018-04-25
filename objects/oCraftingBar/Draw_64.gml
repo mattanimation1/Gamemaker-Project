@@ -21,9 +21,8 @@ if oCrafting.draw == true {
 		var color = $363636
 		draw_rectangle_color(213+317,150+87,213+538,150+122,color,color,color,color, false) //Draw backround color
 		draw_sprite_ext(sItem,global.crafting_data[# crafting_slot, 8],323+213,92+150, 0.75, 0.75, 0, c_white, 1)//Small Image up the top
-		draw_text_color(355+213,91+93,global.crafting_data[# crafting_slot, 7], c_black,c_black,c_black,c_black,1) //Draw small name
-		draw_text_color(355+213,105+98,global.item_data[# global.crafting_data[# global.crafting_selected, 8], 4], c_gray,c_gray,c_gray,c_gray,1) //Draw small item type
-		draw_sprite_ext(sItem,global.crafting_data[# crafting_slot, 8], 213+398, 150+144, 2, 2, 0, c_white, 1) // Draw image
+		
+		draw_sprite_ext(sItemInventory,global.crafting_data[# crafting_slot, 8], 213+398, 150+144, 2, 2, 0, c_white, 1) // Draw image
 		draw_text(213+325,229+150, global.item_data[# global.crafting_data[# crafting_slot, 8 ], 2])//Draw description
 		draw_text(213+325,229+170, string(global.crafting_data[# global.crafting_selected, 4]) + "x " + string(global.item_data[# global.crafting_data[# global.crafting_selected, 1 ], 1]))
 		if  global.crafting_data[# global.crafting_selected, 2] != 0 draw_text(213+325,229+190, string(global.crafting_data[# global.crafting_selected, 5]) + "x " + string(global.item_data[# global.crafting_data[# global.crafting_selected, 2 ], 1]))

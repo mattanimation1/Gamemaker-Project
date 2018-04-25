@@ -161,7 +161,7 @@
         {
             "Key": "3a5af38c-757d-44ae-98c0-5d4b09e14e6a",
             "Value": {
-                "id": "39faae7d-7b3b-44cb-8eae-9797bc39bdb0",
+                "id": "e8550359-77fc-42df-9a19-7aab2272f137",
                 "resourcePath": "options\\ps4\\options_ps4.yy",
                 "resourceType": "GMPS4Options"
             }
@@ -353,7 +353,7 @@
         {
             "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
             "Value": {
-                "id": "dc77930c-fcd6-42bf-9ceb-94c87fb067af",
+                "id": "61dfd11c-3186-4842-a4f8-00b7c859a817",
                 "resourcePath": "options\\windowsuap\\options_windowsuap.yy",
                 "resourceType": "GMWindowsUAPOptions"
             }
@@ -385,7 +385,7 @@
         {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
-                "id": "a5923479-1e94-4af9-9462-6c79760b340b",
+                "id": "eda55aaa-6240-4f45-a902-a82e618d2e38",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
             }
@@ -689,7 +689,7 @@
         {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
-                "id": "76bf4466-5b2f-4cbc-a3aa-55dbab17d89d",
+                "id": "8984448c-0471-4309-a997-abcf359ef4bf",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
             }
@@ -761,7 +761,7 @@
         {
             "Key": "f85efd3d-bcec-4ec0-8226-da808afda79d",
             "Value": {
-                "id": "d0cdcfbb-39b3-4af4-a888-9a7acc7d9ed1",
+                "id": "d7f7b6d1-d72b-401a-b18c-650261b4b66c",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
             }
