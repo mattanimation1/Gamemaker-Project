@@ -41,10 +41,6 @@ if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Spear"
 }
 
 
-
-
-
-
 if tool_locked == false && global.inventorySlot == 4 {
 	var r = collision_line_point(x-4*flipped, y-sprite_height/2+8, mouse_x, mouse_y, oCollison, true, true);
 	draw_line_width_color(x-4*flipped, y-sprite_height/2+8, r[1], r[2],4, c_aqua,  c_aqua)

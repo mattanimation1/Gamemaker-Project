@@ -1,4 +1,4 @@
-depth=-1000
+depth=-10
 global.selX=0
 global.selY=0
 global.drawSel=false

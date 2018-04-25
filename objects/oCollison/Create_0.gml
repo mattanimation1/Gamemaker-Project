@@ -11,3 +11,4 @@ dur = 0
 max_dur = 45;
 original = true;
 solid_ = true;
+lastSel=0
