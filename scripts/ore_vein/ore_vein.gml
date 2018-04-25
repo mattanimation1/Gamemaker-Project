@@ -8,10 +8,13 @@ var veinOffsetX = 0
 var veinOffsetY = 0
 for(var VeinSize=round(random_range(1,size)); VeinSize > 0; VeinSize -= 1)
 {
-	var create_ore = instance_create_depth(i+veinOffsetX,b+veinOffsetY,-10, oCollison)
-	create_ore.image_index = ore_id;
-	var VeinX=choose(0,0,0,1,1,1,-1)
-	var VeinY=choose(0,0,0,-1,1,1,1)
-	veinOffsetX += VeinX * 32
-	veinOffsetY += VeinY * 32
+	if !place_meeting(i+veinOffsetX,b+veinOffsetY,oUnderGroundLightSquare) {
+		var create_ore = instance_create_depth(i+veinOffsetX,b+veinOffsetY,0, oCollison)
+		create_ore.image_index = ore_id;
+		var VeinX=choose(0,0,0,1,1,1,-1)
+		var VeinY=choose(0,0,0,-1,1,1,1)
+		veinOffsetX += VeinX * 32
+		veinOffsetY += VeinY * 32
+		instance_create_depth(i+veinOffsetX,b+veinOffsetY,0, oUnderGroundLightSquare)
+	}
 }

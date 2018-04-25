@@ -8,10 +8,11 @@ if global.selected == id {
 			oPlayer.tool_locked = true;
 		
 	}
-	if keyboard_check_pressed(ord("F")) && original == false{
+	if keyboard_check_pressed(ord("F")) && original == false {
 		var back = instance_create_depth(x,y,10,oBackObject)
 		back.image_index = image_index
 		back.original = false
+		back.depth = 9
 		oPlayer.tool_locked = false
 		global.selected = 0;
 		instance_destroy()
