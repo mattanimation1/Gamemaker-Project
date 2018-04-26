@@ -1,0 +1,1 @@
+global.mouse_over = 0;

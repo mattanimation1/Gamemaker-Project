@@ -1,0 +1,57 @@
+[
+    {
+        "ID":0,
+        "Body_Position":"Helmet",
+        "Sprite_Name_Run":"player_helm_run_wood",
+        "Sprite_Name_Idle":"player_helm_idle_wood",
+        "Sprite_Name_Jump":"player_helm_jump_wood",
+        "Armour":30,
+        "Name":"Wooden Helmet"
+    },
+    {
+        "ID":1,
+        "Body_Position":"Chestplate",
+        "Sprite_Name_Run":"player_helmet_run_wood",
+        "Sprite_Name_Idle":"player_helmet_idle_wood",
+        "Sprite_Name_Jump":"player_helmet_jump_wood",
+        "Armour":30,
+        "Name":"n"
+    },
+    {
+        "ID":2,
+        "Body_Position":"Leggings",
+        "Sprite_Name_Run":"player_helmet_run_wood",
+        "Sprite_Name_Idle":"player_helmet_idle_wood",
+        "Sprite_Name_Jump":"player_helmet_jump_wood",
+        "Armour":30,
+        "Name":"n"
+    },
+    {
+        "ID":3,
+        "Body_Position":"Helmet",
+        "Sprite_Name_Run":"player_helmet_run_wood",
+        "Sprite_Name_Idle":"player_helmet_idle_wood",
+        "Sprite_Name_Jump":"player_helmet_jump_wood",
+        "Armour":30,
+        "Name":"n"
+    },
+    {
+        "ID":4,
+        "Body_Position":"Chestplate",
+        "Sprite_Name_Run":"player_helmet_run_wood",
+        "Sprite_Name_Idle":"player_helmet_idle_wood",
+        "Sprite_Name_Jump":"player_helmet_jump_wood",
+        "Armour":30,
+        "Name":"n"
+    },
+    {
+        "ID":5,
+        "Body_Position":"Leggings",
+        "Sprite_Name_Run":"player_helmet_run_wood",
+        "Sprite_Name_Idle":"player_helmet_idle_wood",
+        "Sprite_Name_Jump":"player_helmet_jump_wood",
+        "Armour":30,
+        "Name":"n"
+    }
+
+]
