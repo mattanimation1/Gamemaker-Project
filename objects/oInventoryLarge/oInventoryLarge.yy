@@ -1,48 +1,28 @@
 {
-    "id": "c1ca4558-1fc7-4048-af49-f4deffdc63f2",
+    "id": "213d3449-98ab-4e26-a97f-a5f4902e3f66",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGame",
+    "name": "oInventoryLarge",
     "eventList": [
         {
-            "id": "3b5d9075-4cbd-4c02-b014-1ea81402b02f",
+            "id": "da48b4bb-466e-4b6a-bf98-efd3151fd024",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "213d3449-98ab-4e26-a97f-a5f4902e3f66"
+        },
+        {
+            "id": "26486fd3-df40-41e7-a8c3-03fee9b91925",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "c1ca4558-1fc7-4048-af49-f4deffdc63f2"
-        },
-        {
-            "id": "20ba6d4f-efd5-402a-b056-d04d80deaf6d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 2,
-            "m_owner": "c1ca4558-1fc7-4048-af49-f4deffdc63f2"
-        },
-        {
-            "id": "4507511f-8597-4203-8039-fa03a444a648",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "c1ca4558-1fc7-4048-af49-f4deffdc63f2"
-        },
-        {
-            "id": "e75542ae-429a-4504-a29e-344729c6537e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 69,
-            "eventtype": 9,
-            "m_owner": "c1ca4558-1fc7-4048-af49-f4deffdc63f2"
+            "m_owner": "213d3449-98ab-4e26-a97f-a5f4902e3f66"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
