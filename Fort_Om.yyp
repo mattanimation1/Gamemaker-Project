@@ -1692,6 +1692,25 @@
             }
         },
         {
+            "Key": "bfbab0ab-693b-4332-9074-14a2247977ec",
+            "Value": {
+                "id": "cd1a817e-5428-40d6-9ec4-4d45b910fb75",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/armour_managment\/armour_managment.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c075cfa6-ce41-4940-9ae3-7ceee5bf43fd",
             "Value": {
                 "id": "a0fec867-2dd7-4512-ad4e-ca29f55a21dc",
@@ -2271,7 +2290,8 @@
         "72960ab3-815f-4852-853e-3bd3df0b0cb6",
         "00f16bf7-7c10-43e4-8e83-2b9f12f9d306",
         "bf40e58c-6bc4-41cf-8384-5aa853267887",
-        "585d466f-d468-4ede-8fb0-ce52945fcce2"
+        "585d466f-d468-4ede-8fb0-ce52945fcce2",
+        "bfbab0ab-693b-4332-9074-14a2247977ec"
     ],
     "tutorial": ""
 }
