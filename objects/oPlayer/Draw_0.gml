@@ -3,13 +3,19 @@ var dir = point_direction(x-4*flipped, y-sprite_height/2+8, mouse_x, mouse_y)
 flipped = (mouse_x > x) * 2 - 1;
 
 
-
-
-
-
+show_debug_message(global.armour_data[# 0,3])
 //Draw the player
-draw_sprite_ext(sPlayer, image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha)
+draw_sprite_ext(sprite, image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha)
+//Draw the armour
+if global.item_data[# global.inventory[# 36, 0],4] == "Helmet" {
+	var value = global.item_data[# global.inventory[# 36,0], 1]
+	show_debug_message(value)
+	var check_place = ds_grid_value_x(global.armour_data,0,0,ds_grid_width(global.armour_data), ds_grid_height(global.armour_data),value)
+	show_debug_message(check_place)
+	var sprite_ = global.armour_data[# check_place,2]
 
+	draw_sprite_ext(sprite_, image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha)
+}
 
 //Draw the gun
 if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Gun" { //Draws the gun
@@ -29,7 +35,7 @@ if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Spear"
 
 
 
-if global.inventorySlot == 4
+if global.inventorySlot == 4 && oGame.draw == false
 {
 	//Check the collison line then draw the line
 	var r = collision_line_point(x-4*flipped, y-sprite_height/2+8, mouse_x, mouse_y, oCollison, true, true);

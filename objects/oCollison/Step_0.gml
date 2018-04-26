@@ -45,11 +45,3 @@ if global.selected == id {
 if mouse_over == false or global.selected != id or mouse_check_button(mb_left) == false{
 	dur=0	
 }
-
-
-if place_meeting(x,y,oCollison){
-	//leaves and stone under ores get destroyed
-	if(image_index==22 or image_index==3){
-	instance_destroy()
-	}
-}

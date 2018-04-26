@@ -1,4 +1,4 @@
-
+//If inside another object
 surfScale = 1/8
 
 maxSize = 3;
