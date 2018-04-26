@@ -214,5 +214,29 @@
         "Damage":0,   
         "Type":"Food",
         "Solid": true
+    },
+    {
+        "ID":27,
+        "Name":"Wooden Helmet",
+        "Description":"A wooden helmet",
+        "Damage":0,   
+        "Type":"Helmet",
+        "Solid": true
+    },
+    {
+        "ID":28,
+        "Name":"Wooden Chestplate",
+        "Description":"a wooden chestplate",
+        "Damage":0,   
+        "Type":"Chestplate",
+        "Solid": true
+    },
+    {
+        "ID":29,
+        "Name":"Wooden Leggings",
+        "Description":"a wodden legging",
+        "Damage":0,   
+        "Type":"Leggings",
+        "Solid": true
     }
 ]
