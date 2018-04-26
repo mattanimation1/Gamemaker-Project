@@ -39,11 +39,6 @@ global.selected = 0;
 tool_locked = false;
 depth = 1
 
-player_run_current = player_run
-player_idle_current = player_idle
-player_jump_current = player_jump
-sprite = player_idle_current
-
 //Set bullet speed
 alarm[0] = game_get_speed(gamespeed_fps)/4
 
@@ -83,8 +78,3 @@ inventory_gain_item(23, 1)
 inventory_gain_item(24, 1)
 spearThrust = 0
 swordThrust = 0
-
-
-
-
-

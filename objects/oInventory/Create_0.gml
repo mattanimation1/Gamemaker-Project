@@ -30,7 +30,7 @@ draw = false;
 
 
 
-global.inventory = ds_grid_create(39, 2);
+global.inventory = ds_grid_create(36, 2);
 ds_grid_clear(global.inventory, 0);
 
 

@@ -1,24 +1,21 @@
 // @description Player Movement
-
-
 var hinput = keyboard_check (vk_right) - keyboard_check(vk_left);
 
 if hinput != 0 {
 	speed_[h] += hinput*acceleration_;
 	speed_[h] = clamp(speed_[h], -max_speed_, max_speed_);
 	get_flipped();
-	sprite = player_run_current
 	image_speed = flipped*hinput*.6;
 } else {
 	speed_[h] = lerp(speed_[h], 0, friction_);
-	image_speed = 1;
-	sprite = player_idle_current
+	image_speed = 0;
+	image_index = 0;
 }
 
 if !place_meeting(x, y+1, oCollison) {
 	speed_[ve] += gravity_;
 	image_speed = 0;
-	sprite = player_jump_current
+	image_index = 6;
 } else if keyboard_check_pressed(vk_up) {
 	speed_[ve] = jump_height_;
 	x_scale_ = image_xscale*.8;

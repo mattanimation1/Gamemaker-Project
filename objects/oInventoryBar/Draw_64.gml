@@ -1,10 +1,6 @@
-if oGame.draw == true || var_slot < 9 {
-	if global.inventorySlot == var_slot && oGame.draw == false {
-		draw_sprite(sInventoryBar,1, x+xOffset,y+yOffset)
-	}
-	else if (global.inventorySlot != var_slot || oGame.draw == true) {
-		draw_sprite(sInventoryBar,image, x+xOffset,y+yOffset)
-	}
+if oGame. draw == true || var_slot < 9 {
+	if global.inventorySlot == var_slot && oGame.draw == false draw_sprite(sInventoryBar,1, x,y)
+	if global.inventorySlot != var_slot || oGame.draw == true draw_sprite(sInventoryBar,0, x,y)
 	draw_set_color(c_black)
 	//Get values
 	var iid = global.inventory[# var_slot, 0];
@@ -14,11 +10,11 @@ if oGame.draw == true || var_slot < 9 {
 	//Draw stuff
 	if (iid != global.item_data[# 0, 0]) && oGame.draw != true
 	 {
-	 draw_sprite_ext(sItemInventory, iid, xOrigin+8+xOffset, yOrigin+8+yOffset, 1.5, 1.5, 0, c_white, 1); //Draw item sprite
-	 if var_slot != 4 draw_text(xOrigin+48+xOffset, yOrigin+40+yOffset, string(amount)); //Draw item quantity
+	 draw_sprite_ext(sItemInventory, iid, xOrigin+8, yOrigin+8, 1.5, 1.5, 0, c_white, 1); //Draw item sprite
+	 if var_slot != 4 draw_text(xOrigin+48, yOrigin+40, string(amount)); //Draw item quantity
 	 } else if  (iid != global.item_data[# 0, 0]) {
-		draw_sprite_ext(sItemInventory, iid, xOrigin+8+xOffset, 200+64*floor(var_slot/9)+8+yOffset, 1.5, 1.5, 0, c_white, 1); //Draw item sprite
-		if var_slot != 4 draw_text(xOrigin+48+xOffset,200+64*floor(var_slot/9)+40+yOffset, string(amount)); //Draw item quantity
+		draw_sprite_ext(sItemInventory, iid, xOrigin+8, 200+64*floor(var_slot/9)+8, 1.5, 1.5, 0, c_white, 1); //Draw item sprite
+		if var_slot != 4 draw_text(xOrigin+48,200+64*floor(var_slot/9)+40, string(amount)); //Draw item quantity
 	 }
  
 	/// @description Draw the mouse items.
