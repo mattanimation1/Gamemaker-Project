@@ -4,7 +4,5 @@ instance_activate_object(oInventoryBar)
 instance_activate_object(oCraftingBar)
 instance_activate_object(oCrafting)
 instance_activate_object(oCraftingBars)
-instance_activate_object(oInventoryLarge)
-instance_activate_object(oUpgrades)
 if global.selected != noone instance_activate_object(global.selected)
 alarm[0] = game_get_speed(gamespeed_fps)/8
