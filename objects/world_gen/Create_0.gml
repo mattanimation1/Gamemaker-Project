@@ -37,13 +37,13 @@ for(i=0; i<room_width; i+=32) {
 	instance_create_depth(i,room_height-((p-1)*32)+(32*4),0, oUnderGroundLightSquare)
 	instance_create_depth(i,room_height-((p-1)*32)+(32*5),0, oUnderGroundLightSquare)
 	for(b=room_height-((p-4)*32);b<room_height-32; b+= 32) {
-		if g == round(random_range(1,150)) && b > 300 {
+		if g == round(random_range(1,10)) && b > 1250 {
 			ore_vein(7,6)	
 		}
-		if g == round(random_range(1,150)) && b > 300 {
+		if g == round(random_range(1,10)) && b > 1000 {
 			ore_vein(7,5)	
 		}
-		if g == round(random_range(1,150)) && b > 300 {
+		if g == round(random_range(1,10)) && b > 800 {
 			ore_vein(7,12)	
 		} else{
 			var create_stone = instance_create_depth(i,b,0, oCollison)
