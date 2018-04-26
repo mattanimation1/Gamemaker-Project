@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "20c528e4-4ec1-4a62-917a-83140696c7f8",
-            "Value": {
-                "id": "6ff9f508-bfab-46b9-a599-e3734e4b8321",
-                "resourcePath": "objects\\oUpgrades\\oUpgrades.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "239e81c5-a85f-4be9-8eba-bf0b170d629d",
             "Value": {
                 "id": "e716e119-deff-4aae-b85f-aa55889e0fba",
@@ -212,14 +204,6 @@
                 "id": "075bf758-df1a-4de3-a842-f1bcb064e8fd",
                 "resourcePath": "scripts\/inventory_modify_amount\/inventory_modify_amount.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "515a5464-3787-4b9a-b542-11cc5636b57c",
-            "Value": {
-                "id": "ab5dadce-87bd-4e33-bd11-f5f6eaec9c2a",
-                "resourcePath": "sprites\\sUpgrades\\sUpgrades.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
