@@ -30,11 +30,15 @@
         "fe825485-7b72-427a-9997-0e51e27005e3",
         "77988838-b4b5-457b-8762-793f687e6740",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "56104b80-1ced-441d-a889-407e31e632b4"
 =======
         "56104b80-1ced-441d-a889-407e31e632b4",
         "20c528e4-4ec1-4a62-917a-83140696c7f8"
 >>>>>>> parent of 8d4da52... Merge branch 'master' of https://github.com/Toemking/Gamemaker-Project
+=======
+        "56104b80-1ced-441d-a889-407e31e632b4"
+>>>>>>> parent of 45c5489... stuff
     ],
     "filterType": "GMObject",
     "folderName": "objects",
