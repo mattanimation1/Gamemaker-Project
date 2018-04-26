@@ -1,0 +1,236 @@
+[
+    {
+        "ID":0,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oHouse",
+        "TOWER_REQ_2":"oBarracks",
+        "SKILL_GIVEN":"I'm Advanced!",
+        "SKILL_NEEDED":"Basic",
+        "NAME":"I'm Advanced!",
+        "SUB_IMG":0,
+        "DESCRIPTION": "Unlocks the Advanced\nBarrack in the shop"
+                    
+    },
+    {
+        "ID":1,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oAdvancedBarracks",
+        "TOWER_REQ_2":"oIronMine",
+        "SKILL_GIVEN":"Boom, Tanks!",
+        "SKILL_NEEDED":"I'm Advanced!",
+        "NAME":"Boom, Tanks!",
+        "SUB_IMG":1,
+        "DESCRIPTION":"Unlocks the deployment\nof the tankship"
+                      
+    },
+    {
+        "ID":2,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oAdvancedBarracks",
+        "TOWER_REQ_2":"oHouse",
+        "SKILL_GIVEN":"Maps N' Attacks",
+        "SKILL_NEEDED":"I'm Advanced!",
+        "NAME":"Maps N' Attacks",
+        "SUB_IMG":2,
+        "DESCRIPTION":"Unlocks the deployment\nof the tankship"
+    },
+    {                                                                                                                                                                                                                                
+        "ID":3,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oLumber",
+        "TOWER_REQ_2":"oAdvancedHouse",
+        "SKILL_GIVEN":"Light up the Sky!",
+        "SKILL_NEEDED":"Boom, Tanks!",
+        "NAME":"Light up the Sky!",
+        "SUB_IMG":3,
+        "DESCRIPTION":"Unlocks the deployment\nof the Lasership"
+    },
+    {
+        "ID":4,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oGoldMine",
+        "TOWER_REQ_2":"oGoldMine",
+        "SKILL_GIVEN":"Explosions on Wheels",
+        "SKILL_NEEDED":"Boom, Tanks!",
+        "NAME":"Explosions on Wheels",
+        "SUB_IMG":4,
+        "DESCRIPTION":"Unlocks the deployment\nof the Mobile Motar"
+    },
+    {
+        "ID":5,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oApartments",
+        "TOWER_REQ_2":"oApartments",
+        "SKILL_GIVEN":"In Search of New Land",
+        "SKILL_NEEDED":"Maps N' Attacks",
+        "NAME":"In Search of New Land",
+        "SUB_IMG":5,
+        "DESCRIPTION":"Unlocks the deployment\nof the Colony Cruiser"
+    },
+    {
+        "ID":6,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oAdvancedHouse",
+        "TOWER_REQ_2":"oAdvancedBarracks",
+        "SKILL_GIVEN":"We Come in Peace",
+        "SKILL_NEEDED":"Maps N' Attacks",
+        "NAME":"We Come in Peace",
+        "SUB_IMG":6,
+        "DESCRIPTION":"Unlocks the deployment\nof the Trade Cruiser"
+    },
+    {
+        "ID":7,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oBarracks",
+        "TOWER_REQ_2":"oBarracks",
+        "SKILL_GIVEN":"Time for Science!",
+        "SKILL_NEEDED":"Basic",
+        "NAME":"Time for Science!",
+        "SUB_IMG":7,
+        "DESCRIPTION":"Unlocks the Research\nCentre in the Shop"
+    },
+    {
+        "ID":8,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oResearch",
+        "TOWER_REQ_2":"oHouse",
+        "SKILL_GIVEN":"Down With the Trees!",
+        "SKILL_NEEDED":"Time for Science!",
+        "NAME":"Down With the Trees!",
+        "SUB_IMG":8,
+        "DESCRIPTION":"Unlocks the Lumber\nPlant in the Shop"
+    },
+    {
+        "ID":9,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oIronMine",
+        "TOWER_REQ_2":"oIronMine",
+        "SKILL_GIVEN":"Time to Mine!",
+        "SKILL_NEEDED":"Time for Science!",
+        "NAME":"Time to Mine!",
+        "SUB_IMG":9,
+        "DESCRIPTION":"Unlocks the Iron\nRefinery in the Shop"
+    },
+    {
+        "ID":10,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oGoldMine",
+        "TOWER_REQ_2":"oGoldMine",
+        "SKILL_GIVEN":"Cotton is Rotton",
+        "SKILL_NEEDED":"Down With the Trees!",
+        "NAME":"Cotton is Rotton",
+        "SUB_IMG":10,
+        "DESCRIPTION":"Unlocks the Cotton\nplantation in the Shop"
+    },
+    {
+        "ID":11,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oAdvancedHouse",
+        "TOWER_REQ_2":"oAdvancedBarracks",
+        "SKILL_GIVEN":"Morale Boost",
+        "SKILL_NEEDED":"Down With the Trees!",
+        "NAME":"Morale Boost",
+        "SUB_IMG":11,
+        "DESCRIPTION":"Increases Cotton and Wood\nEarned per Hour by 10%",
+        "DESCRIPTION":"Increases Natrual\nItems Earned by 10%"
+    },
+    {
+        "ID":12,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oCotton",
+        "TOWER_REQ_2":"oCotton",
+        "SKILL_GIVEN":"The Good Stuff",
+        "SKILL_NEEDED":"Time to Mine!",
+        "NAME":"The Good Stuff",
+        "SUB_IMG":12,
+        "DESCRIPTION":"Unlocks the Gold\nRefinery in the Shop"
+    },
+    {
+        "ID":13,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oApartments",
+        "TOWER_REQ_2":"oTower",
+        "SKILL_GIVEN":"Off to Work we go!",
+        "SKILL_NEEDED":"Time to Mine!",
+        "NAME":"Off to Work we go!",
+        "SUB_IMG":13,
+        "DESCRIPTION":"Increases Production of\nIron and Gold by 10%"
+    },
+    {
+        "ID":14,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oResearch",
+        "TOWER_REQ_2":"oResearch",
+        "SKILL_GIVEN":"Friends!",
+        "SKILL_NEEDED":"Basic",
+        "NAME":"Friends!",
+        "SUB_IMG":14,
+        "DESCRIPTION":"Unlocks the Basic\nHouse in the Shop"
+    },     
+    {
+        "ID":15,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oResearch",
+        "TOWER_REQ_2":"oBarracks",
+        "SKILL_GIVEN":"Friends 2.0!",
+        "SKILL_NEEDED":"Friends!",
+        "NAME":"Friends 2.0!",
+        "SUB_IMG":15,
+        "DESCRIPTION":"Unlocks the Advanced\nHouse in the Shop"
+    },
+    {
+        "ID":16,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oAdvancedBarracks",
+        "TOWER_REQ_2":"oAdvancedBarracks",
+        "SKILL_GIVEN":"True Love!",
+        "SKILL_NEEDED":"Friends!",
+        "NAME":"True Love!",
+        "SUB_IMG":16,
+        "DESCRIPTION":"Enables the Population\nto Reproduce"
+    },
+    {
+        "ID":17,     
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oAdvancedHouse",
+        "TOWER_REQ_2":"oAdvancedBarracks",
+        "SKILL_GIVEN":"All Together!",
+        "SKILL_NEEDED":"Friends 2.0!",
+        "NAME":"All Together!",
+        "SUB_IMG":17,
+        "DESCRIPTION":"Unlocks the Residential\nApartment in the Shop"
+    },
+    {
+        "ID":18,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oGoldMine",
+        "TOWER_REQ_2":"oGoldMine",
+        "SKILL_GIVEN":"Resedential Development",
+        "SKILL_NEEDED":"Friends 2.0!",
+        "NAME":"Resedential Development",
+        "SUB_IMG":18,
+        "DESCRIPTION":"Unlocks the Housing\nSub-Divison in the Shop"
+    },
+    {
+        "ID":19,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oAdvancedHouse",
+        "TOWER_REQ_2":"oIronMine",
+        "SKILL_GIVEN":"A Happy Family",
+        "SKILL_NEEDED":"True Love!",
+        "NAME":"A Happy Family",
+        "SUB_IMG":19,
+        "DESCRIPTION":"Couples Produce\nMore Children"
+    },
+    {
+        "ID":20,
+        "UNLOCKED":false,
+        "TOWER_REQ_1":"oCotton",
+        "TOWER_REQ_2":"oCotton",
+        "SKILL_GIVEN":"The Next Genration",
+        "SKILL_NEEDED":"True Love!",
+        "NAME":"The Next Genration",
+        "SUB_IMG":20,
+        "DESCRIPTION":"Citizens Age 20%\nFaster "
+    }   
+]
