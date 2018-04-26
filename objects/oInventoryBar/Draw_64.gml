@@ -35,3 +35,10 @@ if oGame.draw == true || var_slot < 9 {
 	 }
 	 
 }
+
+if global.mouse_over == 8{
+	global.over_gun=true
+}
+else{
+	global.over_gun=false	
+}

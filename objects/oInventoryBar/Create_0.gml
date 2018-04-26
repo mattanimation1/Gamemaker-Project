@@ -10,3 +10,5 @@ image = 0;
 depth = -100
 
 global.mouse_slot = ds_grid_create(1, 2);
+
+global.over_gun = false
