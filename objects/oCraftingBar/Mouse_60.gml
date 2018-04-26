@@ -1,1 +1,0 @@
-if y != yOrigin y+= 18;
