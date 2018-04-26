@@ -3,17 +3,15 @@ var dir = point_direction(x-4*flipped, y-sprite_height/2+8, mouse_x, mouse_y)
 flipped = (mouse_x > x) * 2 - 1;
 
 
-show_debug_message(global.armour_data[# 0,3])
+
 //Draw the player
 draw_sprite_ext(sprite, image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha)
 //Draw the armour
-if global.item_data[# global.inventory[# 36, 0],4] == "Helmet" {
-	var value = global.item_data[# global.inventory[# 36,0], 1]
-	var check_place = ds_grid_value_x(global.armour_data,0,0,ds_grid_width(global.armour_data), ds_grid_height(global.armour_data),value)
-	var sprite_ = global.armour_data[# check_place,2]
-	helmetDraw = sprite_
-} else helmetDraw = -1;
+armour_managment("Helmet",36)
+armour_managment("Chestplate",37)
+armour_managment("Leggings",38)
 
+if armour_managment("Helmet",36) != -1 draw_sprite_ext(armour_managment("Helmet",36), image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha) 
 
 //Draw the gun
 if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Gun" { //Draws the gun
