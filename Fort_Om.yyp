@@ -127,17 +127,6 @@
             }
         },
         {
-<<<<<<< HEAD
-=======
-            "Key": "20c528e4-4ec1-4a62-917a-83140696c7f8",
-            "Value": {
-                "id": "6ff9f508-bfab-46b9-a599-e3734e4b8321",
-                "resourcePath": "objects\\oUpgrades\\oUpgrades.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
->>>>>>> parent of 8d4da52... Merge branch 'master' of https://github.com/Toemking/Gamemaker-Project
             "Key": "239e81c5-a85f-4be9-8eba-bf0b170d629d",
             "Value": {
                 "id": "e716e119-deff-4aae-b85f-aa55889e0fba",

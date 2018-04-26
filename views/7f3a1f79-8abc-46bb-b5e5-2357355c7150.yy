@@ -28,12 +28,7 @@
         "64658f6f-2097-45f3-afc1-0a6feb1d2dde",
         "7363c3e6-df0f-49b3-b2ea-00db2616dd7c",
         "e5608ff8-14e5-4261-8592-b10fcbacae56",
-<<<<<<< HEAD
         "b1117466-41e5-49eb-aafd-98268d5bfd6b"
-=======
-        "b1117466-41e5-49eb-aafd-98268d5bfd6b",
-        "515a5464-3787-4b9a-b542-11cc5636b57c"
->>>>>>> parent of 8d4da52... Merge branch 'master' of https://github.com/Toemking/Gamemaker-Project
     ],
     "filterType": "GMSprite",
     "folderName": "sprites",
