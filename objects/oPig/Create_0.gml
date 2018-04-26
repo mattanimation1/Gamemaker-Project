@@ -6,3 +6,4 @@ alarm[1] = game_get_speed(gamespeed_fps)*10
 jump_height_ = -20;
 max_health = 100 
 health_ = max_health;
+flash = false;

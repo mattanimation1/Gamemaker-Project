@@ -1,3 +1,4 @@
+
 	if oGame.draw == true || var_slot < 9 {
 	/// @description Sets the middle slot to matter manipulator
 	global.inventory[# 4, 0] = 8;
@@ -18,7 +19,7 @@
 	var iid = global.mouse_slot[# 0, 0];
 	var amount = global.mouse_slot[# 0, 1];
 
-	 if mouse_check_button_pressed(mb_left) && var_slot != 4 &&  mouseOver(camera_get_view_x(view_camera[0])+xOrigin+xOffset,(camera_get_view_y(view_camera[0])+200)+64*floor(var_slot/9)+yOffset,64,64)  {
+	 if mouse_check_button_pressed(mb_left) && var_slot != 4 &&  mouseOver(camera_get_view_x(view_camera[0])+xOrigin+xOffset,(camera_get_view_y(view_camera[0])+200)+64*floor(var_slot/9)+yOffset,64,64) && oGame.draw == true {
 		/// @description Move items with the mouse
 
 		var iid = global.inventory[# var_slot, 0];

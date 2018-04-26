@@ -381,6 +381,25 @@
             }
         },
         {
+            "Key": "3126eb6c-75f1-4e0f-aa98-1c9eac5b209f",
+            "Value": {
+                "id": "f28b7154-0588-4da2-9ec0-19119049b317",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/player_chest_idle_wood\/player_chest_idle_wood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "343fe19a-ff94-4d72-a513-0e762f65d927",
             "Value": {
                 "id": "6ab0d72b-07b6-44c8-9498-6fc6b18325d8",
@@ -438,6 +457,25 @@
             }
         },
         {
+            "Key": "3a6d323a-2b63-483b-9170-831e2652cc3b",
+            "Value": {
+                "id": "f27f935c-5db3-4757-8aaf-ca860710d4a2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/3a6d323a-2b63-483b-9170-831e2652cc3b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3d4bad49-ff59-404d-baf6-91bfab549f2b",
             "Value": {
                 "id": "6e9471a1-2e3f-4158-a961-5976be56eed1",
@@ -476,6 +514,25 @@
             }
         },
         {
+            "Key": "45ebe72e-6d8b-4c76-b883-9442484b95df",
+            "Value": {
+                "id": "2d7c7dc1-c659-4f9e-93a6-d3e64279bdb8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/player_legs_run_wood\/player_legs_run_wood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "46d37e77-40f2-42b0-af64-ebf596115aa1",
             "Value": {
                 "id": "fad28bda-bf2f-41bd-9e10-0b58ed68ee71",
@@ -511,6 +568,25 @@
                 ],
                 "resourcePath": "objects\/oLight\/oLight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "47528dd6-0738-4af6-9b60-9c08827492bf",
+            "Value": {
+                "id": "aa900ee8-4374-4f6f-8922-5d769ab6f13f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/player_legs_jump_wood\/player_legs_jump_wood.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1141,6 +1217,25 @@
             }
         },
         {
+            "Key": "856c0fa9-c419-4885-ba57-719e042e8427",
+            "Value": {
+                "id": "b69f1b52-09c5-44a8-804d-30c740dc815a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/player_chest_run_wood\/player_chest_run_wood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8881ae0a-84a0-47fc-b40c-57f3151bf1de",
             "Value": {
                 "id": "63318874-2141-45d5-b506-12a5374d66a4",
@@ -1217,6 +1312,25 @@
             }
         },
         {
+            "Key": "933b41f3-15e2-4cd5-9341-bcd279961d9a",
+            "Value": {
+                "id": "abf46855-09bf-4a2e-b20b-d5e40bbff836",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/933b41f3-15e2-4cd5-9341-bcd279961d9a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "95f0b213-ff04-4940-8480-54a32924b9a1",
             "Value": {
                 "id": "9684bc0f-cea9-4103-ba3c-ec5e673c0d48",
@@ -1270,6 +1384,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sInventoryBox\/sInventoryBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97814407-cf73-41d6-8143-4d721aa6963f",
+            "Value": {
+                "id": "7cd038ac-067e-4a35-a0b7-089a193c22e5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/player_chest_jump_wood\/player_chest_jump_wood.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2239,6 +2372,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sGun\/sGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb31559e-9007-45fb-b099-1762906ed971",
+            "Value": {
+                "id": "372c0fe5-a237-46ae-b893-539c9596fc55",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/player_legs_idle_wood\/player_legs_idle_wood.yy",
                 "resourceType": "GMSprite"
             }
         },

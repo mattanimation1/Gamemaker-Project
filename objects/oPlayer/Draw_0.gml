@@ -7,11 +7,11 @@ flipped = (mouse_x > x) * 2 - 1;
 //Draw the player
 draw_sprite_ext(sprite, image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha)
 //Draw the armour
-armour_managment("Helmet",36)
-armour_managment("Chestplate",37)
-armour_managment("Leggings",38)
+
 
 if armour_managment("Helmet",36) != -1 draw_sprite_ext(armour_managment("Helmet",36), image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha) 
+if armour_managment("Chestplate",37) != -1 draw_sprite_ext(armour_managment("Chestplate",37), image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha) 
+if armour_managment("Leggings",38) != -1 draw_sprite_ext(armour_managment("Leggings",38), image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha) 
 
 //Draw the gun
 if global.item_data[# global.inventory[# global.inventorySlot, 0], 4] == "Gun" { //Draws the gun

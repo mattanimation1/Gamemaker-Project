@@ -4,3 +4,4 @@ if oCrafting.draw == true  {
 } else if oGame.draw == false oCrafting.draw = true
 
 }
+

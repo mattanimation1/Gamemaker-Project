@@ -5,7 +5,8 @@
         "Description":"Nothing",
         "Damage":0,   
         "Type":"Nothing",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":1,
@@ -13,7 +14,8 @@
         "Description":"Some Dirt",
         "Damage":0,   
         "Type":"Block",
-        "Solid": false
+        "Solid": false,
+        "Stack_Limit":99
     },
     {
         "ID":2,
@@ -21,7 +23,8 @@
         "Description":"Some Dirt",
         "Damage":0,   
         "Type":"Block",
-        "Solid": false
+        "Solid": false,
+        "Stack_Limit":99
     },
     {
         "ID":3,
@@ -29,7 +32,8 @@
         "Description":"Some Dirt",
         "Damage":0,   
         "Type":"Block",
-        "Solid": false
+        "Solid": false,
+        "Stack_Limit":99
     },
     {
         "ID":4,
@@ -37,7 +41,8 @@
         "Description":"Some Dirt",
         "Damage":0,   
         "Type":"Block",
-        "Solid": false
+        "Solid": false,
+        "Stack_Limit":99
     },
     {
         "ID":5,
@@ -45,7 +50,8 @@
         "Description":"Some Dirt",
         "Damage":0,   
         "Type":"Item",
-        "Solid": false
+        "Solid": false,
+        "Stack_Limit":99
     },
     {
         "ID":6,
@@ -53,7 +59,8 @@
         "Description":"Some Dirt",
         "Damage":0,   
         "Type":"Item",
-        "Solid": false
+        "Solid": false,
+        "Stack_Limit":99
     },
     {
         "ID":7,
@@ -61,7 +68,8 @@
         "Description":"Some Dirt",
         "Damage":0,   
         "Type":"Consumable",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":8,
@@ -69,7 +77,8 @@
         "Description":"Some Dirt",
         "Damage":0,   
         "Type":"Tool",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":9,
@@ -77,7 +86,8 @@
         "Description":"A stick",
         "Damage":0,   
         "Type":"Item",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":10,
@@ -85,7 +95,8 @@
         "Description":"Used to hit stuff",
         "Damage":60,   
         "Type":"Weapon",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":11,
@@ -93,7 +104,8 @@
         "Description":"Some Stone as Bricks",
         "Damage":0,   
         "Type":"Block",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":12,
@@ -101,7 +113,8 @@
         "Description":"Some Stone as Bricks",
         "Damage":0,   
         "Type":"Item",
-        "Solid": true 
+        "Solid": true ,
+        "Stack_Limit":99
     },
     {
         "ID":13,
@@ -109,7 +122,8 @@
         "Description":"Used to burn stuff",
         "Damage":0,   
         "Type":"Block",
-        "Solid": false
+        "Solid": false,
+        "Stack_Limit":99
     },
     {
         "ID":14,
@@ -117,7 +131,8 @@
         "Description":"Used to burn sutff",
         "Damage":60,   
         "Type":"Gun",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":15,
@@ -125,7 +140,8 @@
         "Description":"Sprays Bullets everywhere",
         "Damage":70,   
         "Type":"Gun",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":16,
@@ -133,7 +149,8 @@
         "Description":"Blows up stuff",
         "Damage":85,   
         "Type":"Gun",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":17,
@@ -141,7 +158,8 @@
         "Description":"Used to Zap Stuff",
         "Damage":15,   
         "Type":"Gun",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":18,
@@ -149,7 +167,8 @@
         "Description":"Used to Zap Stuff",
         "Damage":25,   
         "Type":"Gun",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":19,
@@ -157,7 +176,8 @@
         "Description":"Wood Planks",
         "Damage":25,   
         "Type":"Block",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":20,
@@ -165,7 +185,8 @@
         "Description":"Some Bricks",
         "Damage":0,   
         "Type":"Block",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":21,
@@ -173,7 +194,8 @@
         "Description":"Used to be skillful",
         "Damage":0,   
         "Type":"Block",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":22,
@@ -181,7 +203,8 @@
         "Description":"Green Stuff",
         "Damage":0,   
         "Type":"Block",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":23,
@@ -189,7 +212,8 @@
         "Description":"A long pointy stick that can kill things",
         "Damage":0,   
         "Type":"Spear",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":24,
@@ -197,7 +221,8 @@
         "Description":"A sharp blade used to slice stuff",
         "Damage":0,   
         "Type":"Sword",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":25,
@@ -205,7 +230,8 @@
         "Description":"Some call it tasty some dont",
         "Damage":0,   
         "Type":"Food",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":26,
@@ -213,7 +239,8 @@
         "Description":"Some cooked ham",
         "Damage":0,   
         "Type":"Food",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":99
     },
     {
         "ID":27,
@@ -221,7 +248,8 @@
         "Description":"A wooden helmet",
         "Damage":0,   
         "Type":"Helmet",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":28,
@@ -229,7 +257,8 @@
         "Description":"a wooden chestplate",
         "Damage":0,   
         "Type":"Chestplate",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     },
     {
         "ID":29,
@@ -237,6 +266,7 @@
         "Description":"a wodden legging",
         "Damage":0,   
         "Type":"Leggings",
-        "Solid": true
+        "Solid": true,
+        "Stack_Limit":1
     }
 ]

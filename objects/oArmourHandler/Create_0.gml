@@ -22,3 +22,4 @@ for (var i = 0; i < global.totalArmour; i++)
 	global.armour_data[# i, 5] = theEntry[? "Armour"];
 	global.armour_data[# i, 6] = theEntry[? "Name"];
 }
+instance_destroy()

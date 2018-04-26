@@ -1,1 +1,1 @@
-inventory_gain_item(25,choose(0,1,2,3))
+inventory_gain_item(25,choose(1,2,3))

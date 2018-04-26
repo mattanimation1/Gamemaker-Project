@@ -23,6 +23,7 @@ for (var i = 0; i < global.totalItems; i++)
 	global.item_data[# i, 3] = theEntry[? "Damage"];
 	global.item_data[# i, 4] = theEntry[? "Type"];
 	global.item_data[# i, 5] = theEntry[? "Solid"];
+	global.item_data[# i, 6] = theEntry[? "Stack_Limit"];
 }
 
 

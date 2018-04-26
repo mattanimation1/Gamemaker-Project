@@ -16,8 +16,8 @@ if global.item_data[# global.inventory[# armour_slot, 0],4] == armour_type_strin
 	var sprite_idle = global.armour_data[# check_place,3]
 	var sprite_jump = global.armour_data[# check_place,4]
 	
-	if sprite == player_idle_current return sprite_idle
-	else if sprite == player_run_current return sprite_running
-	else if sprite == player_jump_current return sprite_jump
+	if oPlayer.sprite == oPlayer.player_idle_current return sprite_idle
+	else if oPlayer.sprite == oPlayer.player_run_current return sprite_running
+	else if oPlayer.sprite == oPlayer.player_jump_current return sprite_jump
 	else return -1
 } 

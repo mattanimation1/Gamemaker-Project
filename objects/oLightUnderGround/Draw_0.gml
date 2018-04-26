@@ -5,7 +5,7 @@ draw_clear(c_black)
 with(oSky)
 {
 	gpu_set_blendmode(bm_src_color)
-	draw_sprite_ext(sSquareLight,0,0,0, 30, 0.93, 0, c_white, lightStrength-global.daylight)
+	draw_sprite_ext(sSquareLight,0,0,0, 30, 1.07, 0, c_white,1)
 	gpu_set_blendmode(bm_normal)
 }
 with(oSkyBlock)

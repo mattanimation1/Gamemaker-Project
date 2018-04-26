@@ -83,8 +83,9 @@ part_type_blend(smoke,0)
 
 
 em = part_emitter_create(fire)
-inventory_gain_item(23, 1)
-inventory_gain_item(24, 1)
+inventory_gain_item(27,1)
+inventory_gain_item(28,1)
+inventory_gain_item(29,1)
 spearThrust = 0
 swordThrust = 0
 

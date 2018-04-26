@@ -11,7 +11,10 @@ if oGame.draw == true {
 		draw_sprite(sInventoryBox,0,40,225)		
 		draw_sprite(sInventorySlotInfo,0,403,475)
 		draw_sprite(sInventorySlotInfo,0,715,475)
-		draw_sprite_ext(sPlayer,0,168,500,5,5,0,c_white,1)
+		draw_sprite_ext(player_idle,image_index,155,500,5,5,0,c_white,1)
+		if armour_managment("Helmet",36) != -1 draw_sprite_ext(armour_managment("Helmet",36), image_index, 155,500,5,5,0,c_white,1) 
+		if armour_managment("Chestplate",37) != -1 draw_sprite_ext(armour_managment("Chestplate",37), image_index, 155,500,5,5,0,c_white,1) 
+		if armour_managment("Leggings",38) != -1 draw_sprite_ext(armour_managment("Leggings",38), image_index, 155,500,5,5,0,c_white,1) 
 		
 		if global.inventory[# global.mouse_over, 0] != global.item_data[# 0, 0] {
 			

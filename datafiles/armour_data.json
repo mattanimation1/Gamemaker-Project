@@ -11,20 +11,20 @@
     {
         "ID":1,
         "Body_Position":"Chestplate",
-        "Sprite_Name_Run":"player_helmet_run_wood",
-        "Sprite_Name_Idle":"player_helmet_idle_wood",
-        "Sprite_Name_Jump":"player_helmet_jump_wood",
+        "Sprite_Name_Run":"player_chest_run_wood",
+        "Sprite_Name_Idle":"player_chest_idle_wood",
+        "Sprite_Name_Jump":"player_chest_jump_wood",
         "Armour":30,
-        "Name":"n"
+        "Name":"Wooden Chestplate"
     },
     {
         "ID":2,
         "Body_Position":"Leggings",
-        "Sprite_Name_Run":"player_helmet_run_wood",
-        "Sprite_Name_Idle":"player_helmet_idle_wood",
-        "Sprite_Name_Jump":"player_helmet_jump_wood",
+        "Sprite_Name_Run":"player_legs_run_wood",
+        "Sprite_Name_Idle":"player_legs_idle_wood",
+        "Sprite_Name_Jump":"player_legs_jump_wood",
         "Armour":30,
-        "Name":"n"
+        "Name":"Wooden Leggings"
     },
     {
         "ID":3,
