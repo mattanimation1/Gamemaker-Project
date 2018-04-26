@@ -76,3 +76,4 @@ if oGame.draw == true {
 }
 
 if mouseOver(camera_get_view_x(view_camera[0])+xOrigin+xOffset,(camera_get_view_y(view_camera[0])+200)+64*floor(var_slot/9)+yOffset,64,64) global.mouse_over = var_slot
+
